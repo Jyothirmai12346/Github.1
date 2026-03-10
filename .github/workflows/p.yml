@@ -15,5 +15,5 @@ jobs:
         - name: setup Python
           uses: actions/setup-python@v4
         - name: Run python script
-          run: python 
+          run: python temp.py ${{github.event.inputs.number}} 
     
